@@ -1,0 +1,9 @@
+
+[mqtt]
+user=
+pass=
+host=mqtt.interfinitydynamics.info
+port=1883
+topic_set=backlights/circuits/set
+topic_get=backlights/circuits
+

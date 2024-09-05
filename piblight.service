@@ -1,0 +1,14 @@
+[Unit]
+Description=Piblight
+After=network.target
+
+[Service]
+Type=simple
+ExecStart=/usr/local/bin/piblight /etc/piblight.conf
+Restart=on-failure
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target
+
+
